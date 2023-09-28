@@ -3,11 +3,10 @@ import '../styles/styles.css';
 export default function Contact() {
     return (
       <div>
+        <input></input>
+        
 
-        <form id="contact-form" >
-         <input>Name:</input>
-          
-        </form>
+        
       </div>
     );
   }

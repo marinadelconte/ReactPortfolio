@@ -55,7 +55,7 @@ function NavTabs() {
       </li>
     </ul>
     </nav>
-  );
+    );
 }
 
 export default NavTabs;
