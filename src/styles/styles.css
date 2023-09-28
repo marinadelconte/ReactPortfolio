@@ -1,0 +1,30 @@
+* {
+background-color:rgb(238, 234, 205)
+}
+
+.nav {
+display: flex;
+justify-content: space-between;
+}
+
+header {
+    padding: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: rgb(157, 127, 255);
+}
+
+.subheader {
+color:rgba(240, 136, 33, 0.885)
+}
+
+nav {
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+img {
+border-radius: 50%;
+width: 20%;
+height: 20%;
+}
