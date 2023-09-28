@@ -5,7 +5,7 @@ The React Portfolio is a digital portfolio of my work so far as a software devel
 
 
 ## Installation
-This application is deployed using Netlify and can be accessed via this link: 
+This application is deployed using Netlify and can be accessed via this link: https://main--stunning-kheer-4e0898.netlify.app/
 
 
 ## Usage
