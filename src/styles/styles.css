@@ -1,10 +1,15 @@
 * {
-background-color:rgb(238, 234, 205)
+    background-color: rgb(238, 234, 205)
+}
+
+body {
+    height: 100%;
+    margin: 0;
 }
 
 .nav {
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 header {
@@ -15,7 +20,7 @@ header {
 }
 
 .subheader {
-color:rgba(240, 136, 33, 0.885)
+    color: rgba(240, 136, 33, 0.885)
 }
 
 nav {
@@ -23,8 +28,23 @@ nav {
     margin-top: 10px;
 }
 
+.nav-tabs {
+    font-size: large;
+    
+    
+}
+
+.footer {
+    font-size: 18px;
+    text-align: center;
+    margin-top: auto;
+    position: relative;
+    bottom: 0;
+    
+}
+
 img {
-border-radius: 50%;
-width: 20%;
-height: 20%;
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
 }

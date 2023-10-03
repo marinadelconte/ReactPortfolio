@@ -1,10 +1,17 @@
+import Project from '/src/components/Project';
+import '../styles/styles.css';
+
+
+
 export default function Portfolio() {
     return (
       <div>
-        <h1></h1>
-        <p>
-          
-        </p>
+          <Project />
+          <Project />
+          <Project />
+          <Project />
+          <Project />
+          <Project />
       </div>
     );
   }
