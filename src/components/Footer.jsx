@@ -1,9 +1,11 @@
 import '../styles/styles.css';
 
+
 function Footer() {
     return (
       <div>
-        <h1 className="footer">By Marina</h1>
+        <h1 className="footer text-center">Made with 💜 By Marina</h1>
+       
         
 
         

@@ -1,5 +1,5 @@
 * {
-    background-color: rgb(238, 234, 205)
+    background-color: white
 }
 
 body {
@@ -35,10 +35,10 @@ nav {
 }
 
 .footer {
-    font-size: 18px;
-    text-align: center;
+    display: flex;
+    font-size: 16px;
+    font-weight: 450;
     margin-top: auto;
-    position: relative;
     bottom: 0;
     
 }
@@ -47,4 +47,18 @@ img {
     border-radius: 50%;
     width: 20%;
     height: 20%;
+}
+
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.linkedin {
+    display: flex;
+    width: 3%;
+    height: 3%;
+    
 }
