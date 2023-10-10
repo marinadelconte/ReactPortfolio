@@ -62,3 +62,8 @@ img {
     height: 3%;
     
 }
+
+.card {
+    display: flex;
+    justify-content: space-around;
+}
