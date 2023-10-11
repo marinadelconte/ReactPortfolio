@@ -13,15 +13,18 @@ export default function Contact() {
         <input
         placeholder="Name"
         name="name"
-        type="text"></input>
+        type="text"
+        required></input>
         <input
         placeholder="Email"
         name="email"
-        type="text"></input>
+        type="text"
+        required></input>
         <input
         placeholder="Message"
         name="message"
-        type="text"></input>
+        type="text"
+        required></input>
         <button
         type="submit"
         onClick={handleFormSubmit}>Submit</button>
