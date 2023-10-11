@@ -57,14 +57,18 @@ img {
     width: 40%;
 }
 
-.linkedin {
+.linkedin-logo {
     display: flex;
-    width: 3%;
-    height: 3%;
-    
+    width: 4%;
+    height: 4%;
 }
 
-.card {
+.welcome {
     display: flex;
-    justify-content: space-around;
+    align-items: flex-end;
 }
+
+.projects {
+    display: grid;
+}
+
