@@ -3,13 +3,13 @@ import '../styles/styles.css';
 
 function Footer() {
     return (
-      <div className="footer">
+      <footer className="footer">
         <h1 className="footer">Made with 💜 By Marina</h1>
        
         
 
         
-      </div>
+      </footer>
     );
   }
   
