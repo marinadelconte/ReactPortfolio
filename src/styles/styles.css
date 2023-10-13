@@ -1,49 +1,80 @@
-* {
-    background-color: white
+:root {
+    --text: #7575a5;
+    --peach: blanchedalmond;
+    --green: #6b8e23;
 }
 
 html, body {
     
-    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px; 
 }
 
-.nav {
+main {
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+}
+
+
+nav {
+    background-color: blanchedalmond;
     display: flex;
     justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
+nav a:link,
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-shadow: 0 0 10px #6b8e23;
+    color: var(--green);
+}
+
+.nav-pills {   
+    font-size: 20px;
+}
+
+
 header {
+    background-color: blanchedalmond;
     padding: 10px;
     padding-bottom: 20px;
     text-align: center;
     color: rgb(157, 127, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.header {
+    font-size: 45px;
 }
 
 .subheader {
-    color: rgba(240, 136, 33, 0.885)
+    color: var(--green);
+    font-size: 25px;
 }
 
-nav {
-    margin-bottom: 50px;
-    margin-top: 10px;
-}
-
-.nav-tabs {
-    font-size: large;
-    
-}
 
 .footer {
     display: flex;
     font-size: 16px;
-    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-weight: 200;
     text-align: center;
     justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     height: 75px;
     margin-bottom: 0;
-    margin-top: 20%; 
+    margin-top: 15%; 
 }
 
 img {
@@ -59,21 +90,48 @@ img {
     width: 40%;
 }
 
-.linkedin-logo {
+.linkedin-logo,
+.wordpress-logo
+ {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+}
+
+.github-logo {
+    display: inline block;
+    width: 54px;
+    height: 50px;
+}
+
+/* .github-logo {
     display: flex;
     width: 4%;
     height: 4%;
 }
 
+.wordpress-logo {
+    display: flex;
+    width: 3.5%;
+    height: 3.5%; */
+
+.home-text {
+    align-items: center;
+    left: 30%;
+    top: 25%;
+    position: absolute;
+    
+}
+
 .welcome {
     display: flex;
-    font-size: 26px;
+    font-size: 50px;
     
 }
 
 .links {
     display: flex;
-    font-size: 20px;
+    font-size: 45px;
 }
 
 .projects {

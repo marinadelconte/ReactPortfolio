@@ -8,7 +8,7 @@ const handleFormSubmit = async (event) => {
 export default function Contact() {
     return (
       <>
-      <form class="contactForm">
+      <form className="contactForm">
         <h1>Contact Me</h1>
         <input
         placeholder="Name"

@@ -6,13 +6,13 @@ function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
-    <nav class>
+    <nav>
       <Header/>
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-pills mb-3 nav-justified">
       <li className="nav-item">
         <Link
           to="/"
-          className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/' ? 'nav-link ' : 'nav-link'}
         >
           Home
         </Link>
@@ -20,7 +20,7 @@ function NavTabs() {
       <li className="nav-item">
         <Link
           to="/About"
-          className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/About' ? 'nav-link ' : 'nav-link'}
         >
           About
         </Link>
@@ -28,7 +28,7 @@ function NavTabs() {
       <li className="nav-item">
         <Link
           to="/Portfolio"
-          className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/Portfolio' ? 'nav-link ' : 'nav-link'}
         >
           Portfolio
         </Link>
@@ -36,7 +36,7 @@ function NavTabs() {
       <li className="nav-item">
         <Link
           to="/Resume"
-          className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/Resume' ? 'nav-link ' : 'nav-link'}
         >
           Resume
         </Link>
@@ -44,7 +44,7 @@ function NavTabs() {
       <li className="nav-item">
         <Link
           to="/Contact"
-          className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/Contact' ? 'nav-link ' : 'nav-link'}
         >
           Contact
         </Link>
