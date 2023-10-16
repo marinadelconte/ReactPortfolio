@@ -7,6 +7,7 @@ export default function Resume() {
         <ul className="skills">
           <h3>Technical Skills</h3>
           <li>JavaScript ES6+</li>
+          <li>jQuery</li>
           <li>CSS3</li>
           <li>HTML5</li>
           <li>SQL</li>

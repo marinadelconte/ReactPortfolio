@@ -139,7 +139,19 @@ img {
 }
 
 .projects {
-    display: grid;
-    display: inline-block;
+    display: inline grid;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
+}
 
+.projects a:hover {
+    text-shadow: 0 0 10px #6b8e23;
+    color: var(--green);
+}
+
+.card-img {
+    height: 250px;
+    align-content: center;
+    padding-bottom: 10px;
 }
