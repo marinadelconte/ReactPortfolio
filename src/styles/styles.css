@@ -16,10 +16,7 @@ body {
 main {
     background-image: url('/background.jpg');
     height: 800px;
-
 }
-
-
 
 nav {
     background-color: blanchedalmond;
@@ -108,29 +105,16 @@ img {
     height: 50px;
 }
 
-/* .github-logo {
-    display: flex;
-    width: 4%;
-    height: 4%;
-}
-
-.wordpress-logo {
-    display: flex;
-    width: 3.5%;
-    height: 3.5%; */
-
 .home-text {
     align-items: center;
     left: 30%;
     top: 25%;
     position: absolute;
-
 }
 
 .welcome {
     display: flex;
     font-size: 50px;
-
 }
 
 .links {
@@ -156,11 +140,6 @@ img {
     padding-bottom: 10px;
 }
 
-#skills {
-    display: grid;
-    grid-template-columns: 400px 400px;
-}
-
 #fs-form {
     display: grid;
     width: 30%;
@@ -184,4 +163,31 @@ label {
 #full-name, #email, #message {
     font-size: 18px;
     margin-bottom: 5px;
+}
+
+.resume {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.resume  a,
+.resume a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.resume  a:hover {
+    text-shadow: 0 0 10px #6b8e23;
+    color: var(--green);
+}
+
+.skills {
+    float: left;
+    padding-right: 150px;
+    font-size: 20px;
+}
+
+.skills-2 {
+    float: middle;
+    font-size: 20px;
 }

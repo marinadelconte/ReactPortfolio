@@ -4,13 +4,13 @@ import MyResume from '../../public/Resume2023.pdf'
 export default function Resume() {
   return (
     <div>
-      <p className='pt-2 pb-2'>
-            If you would like to see more of my credentials and previous experience, you can download my full resume <u><a href={MyResume} download>here</a></u>.
-      </p>
+      <h3 className="resume">
+            If you would like to see more of my credentials and experience, you can download my full resume <u><a href={MyResume} download>here</a></u>.
+      </h3>
       <div id="skills"> 
         <div >
           <ul className="skills">
-            <h1>Skills & Competencies</h1>
+            <h4>Technical Skills:</h4>
             <li>JavaScript ES6+</li>
             <li>jQuery</li>
             <li>CSS3</li>
@@ -27,6 +27,9 @@ export default function Resume() {
             <li>Handlebars</li>
             <li>Bootstrap</li>
             <li>Bulma</li>
+          </ul>
+          <ul className="skills-2">
+            <h4>Additional Skills:</h4>
             <li>Microsoft Office Systems</li>
             <li>Windows & Mac Operating Systems</li>
             <li>Outlook</li>
