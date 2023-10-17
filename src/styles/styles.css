@@ -115,6 +115,7 @@ img {
 .welcome {
     display: flex;
     font-size: 50px;
+    
 }
 
 .links {
@@ -147,7 +148,7 @@ img {
 }
 
 #submit {
-    width: 15%;
+    width: 5rem;
     margin-top: 10px;
     background-color: #6b8e23;
     color: blanchedalmond;
