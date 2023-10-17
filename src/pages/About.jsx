@@ -4,8 +4,9 @@ import '../styles/styles.css';
 export default function About() {
     return (
       <div>
-      <h1>Hi there!</h1>
-      <p id="about">Welcome to my digital portfolio! I'm glad you decided to stop by! I am a Full Stack Software Developer that is building experience creating web applications like the very one you are on! Click on any of the tabs above to see examples of my work, resume, and how to contact me. Here are some fast facts about me to get to know me better: </p>
+      <h2>Hi there!</h2>
+      <p id="about">My name is Marina and I am a recent graduate of the University of Pennsylvania's Full Stack Coding Bootcamp. Prior to enrolling in the Bootcamp, I was working in financial marketing as a Communications Coordinator. After much consideration, I decided to change career paths and pursue a career in software development. I am continuing to grow and expand upon my experience, and look forward to career opportunities to succeed as a Full Stack Software Developer. </p>
+      <p id="facts">Here are some fast facts about me to get to know me better: </p>
                     <ul>
                         <li>Age: 28</li>
                         <li>Location: Philadelphia, Pa</li>

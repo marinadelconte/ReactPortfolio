@@ -195,5 +195,10 @@ label {
 
 #about {
     width: 75%;
-    font-size: 24px;
+    font-size: 22px;
+    padding-bottom: 30px;
+}
+
+#facts {
+    font-size: 20px;
 }
