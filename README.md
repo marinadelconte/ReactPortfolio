@@ -5,7 +5,7 @@ The React Portfolio is a digital portfolio of my work so far as a software devel
 
 
 ## Installation
-This application is deployed using Netlify and can be accessed via this link: https://main--stunning-kheer-4e0898.netlify.app/
+This application is deployed using Netlify and can be accessed via this link: (https://marinadelconte-portfolio.netlify.app/).
 
 To run this in live server, first run "npm i" to start. Next run "npm run dev" to start listening on local host 3001.
 
