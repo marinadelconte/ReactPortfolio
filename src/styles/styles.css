@@ -192,3 +192,8 @@ label {
     float: middle;
     font-size: 20px;
 }
+
+#about {
+    width: 75%;
+    font-size: 24px;
+}
