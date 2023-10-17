@@ -3,9 +3,10 @@ import '../styles/styles.css';
 export default function Resume() {
     return (
       <div>
-        <div id="tech-skills">
+        <container id="skills" >
+        <div >
         <ul className="skills">
-          <h3>Technical Skills</h3>
+          <h1>Skills & Competencies</h1>
           <li>JavaScript ES6+</li>
           <li>jQuery</li>
           <li>CSS3</li>
@@ -21,13 +22,7 @@ export default function Resume() {
           <li>Node</li>
           <li>Handlebars</li>
           <li>Bootstrap</li>
-          <li>Bulma</li>
-        </ul>
-        </div>
-        
-    <div id="other-skills">
-      <h3>Additional Skills</h3>
-      <ul>
+          <li>Bulma</li>   
         <li>Microsoft Office Systems</li>
         <li>Windows & Mac Operating Systems</li>
         <li>Outlook</li>
@@ -40,8 +35,10 @@ export default function Resume() {
         <li>Adobe Illustrator</li>
         <li>Camtasia</li>
         <li>Hootsuite</li>
-    </ul>
-    </div>
+        </ul>
+        </div>
+    
+    </container>
         
        
   </div>

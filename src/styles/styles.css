@@ -155,3 +155,33 @@ img {
     align-content: center;
     padding-bottom: 10px;
 }
+
+#skills {
+    display: grid;
+    grid-template-columns: 400px 400px;
+}
+
+#fs-form {
+    display: grid;
+    width: 30%;
+    padding: 5px;
+}
+
+#submit {
+    width: 15%;
+    margin-top: 10px;
+    background-color: #6b8e23;
+    color: blanchedalmond;
+    border: 3px #6b8e23;
+    font-size: 18px;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 550;
+}
+
+#full-name, #email, #message {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
