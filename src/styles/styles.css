@@ -1,6 +1,6 @@
 :root {
-    --text: #7575a5;
-    --peach: blanchedalmond;
+    --text: #9d7fff;
+    --peach: #ffebcd;
     --green: #6b8e23;
 }
 
@@ -19,7 +19,7 @@ main {
 }
 
 nav {
-    background-color: blanchedalmond;
+    background-color: var(--peach);
     display: flex;
     justify-content: space-between;
     font-family: 'Montserrat', sans-serif;
@@ -27,6 +27,8 @@ nav {
     margin-bottom: 15px;
     margin-top: 15px;
 }
+
+
 
 nav a:link,
 a:visited {
@@ -45,11 +47,11 @@ nav a:hover {
 
 
 header {
-    background-color: blanchedalmond;
+    background-color: var(--peach);
     padding: 10px;
     padding-bottom: 20px;
     text-align: center;
-    color: rgb(157, 127, 255);
+    color: var(--text);
     font-family: 'Montserrat', sans-serif;
     font-family: 'Playfair Display', serif;
 }
@@ -99,6 +101,7 @@ img {
     height: 70px;
 }
 
+
 .github-logo {
     display: inline block;
     width: 54px;
@@ -131,7 +134,7 @@ img {
 }
 
 .projects a:hover {
-    text-shadow: 0 0 10px #6b8e23;
+    box-shadow: 0 0 10px #6b8e23;
     color: var(--green);
 }
 
@@ -150,8 +153,8 @@ img {
 #submit {
     width: 5rem;
     margin-top: 10px;
-    background-color: #6b8e23;
-    color: blanchedalmond;
+    background-color: var(--green);
+    color: var(--peach);
     border: 3px #6b8e23;
     font-size: 18px;
 }
