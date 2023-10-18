@@ -2,9 +2,7 @@ import '../styles/styles.css';
 
 export default function Home() {
   return (
-    <div>
-    <a href="https://www.linkedin.com/in/marina-delconte/" target="_blank"><img src="/IMG_9039.jpg" alt="Headshot"></img></a>
-    
+    <div>  
     <aside>
         <container className="home-text">
       <h1 className="welcome">Welcome to my digital portfolio!</h1>

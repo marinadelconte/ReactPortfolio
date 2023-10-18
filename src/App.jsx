@@ -9,8 +9,8 @@ function App() {
       <Nav />
       <main>
         <Outlet />
-        <Footer />
       </main>
+        <Footer />
     </>
   );
 }
