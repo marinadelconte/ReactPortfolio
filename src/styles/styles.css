@@ -43,6 +43,10 @@ nav a:hover {
     color: var(--green);
 }
 
+.nav-item a:focus {
+    color:#6b8e23;
+}
+
 .nav-pills {
     font-size: 22px;
 }
@@ -202,6 +206,7 @@ label {
     display: inline-block;
     width: 75%;
     font-size: 22px;
+    padding-left: 25px;
     padding-bottom: 30px;
 }
 
@@ -217,3 +222,26 @@ label {
 #facts {
     font-size: 20px;
 }
+
+@media screen and (max-width: 992px) {
+    .headshot img {
+      width: 50%;
+    }
+
+    .about-text {
+        width: 100%;
+        }
+    
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .headshot img {
+      width: 75%;
+    }
+
+    .about-text {
+    width: 100%;
+    }
+   
+  }
