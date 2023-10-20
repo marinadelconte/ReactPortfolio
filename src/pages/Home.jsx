@@ -3,16 +3,14 @@ import '../styles/styles.css';
 export default function Home() {
   return (
     <div>  
-    <aside>
-        <container className="home-text">
-      <h1 className="welcome">Welcome to my digital portfolio!</h1>
-      <a href="https://www.linkedin.com/in/marina-delconte/" target="_blank"><img className="linkedin-logo" src="/linkedin-logo.jpg" alt="linkedin"></img></a>             
-      <a href="https://github.com/marinadelconte" target="_blank"><img className="github-logo" src="github.png" alt="github"></img></a>
-      <a href="" target="_blank"><img className="wordpress-logo" src="wordpress.png" alt="wordpress"></img></a>
-        </container>
+    <aside className="home-text">
+        <h1>Hi, I'm Marina👋🏻</h1>
+        <h4>I like writing code to create something unique.</h4>
     </aside>
+    <div className="home-graphic">
+        <img src="./graphic.jpg"></img>
 
-        
+        </div>
     </div>
     
   );

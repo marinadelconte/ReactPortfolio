@@ -5,7 +5,7 @@ export default function Resume() {
   return (
     <div>
       <h3 className="resume">
-            If you would like to see more of my credentials and experience, you can download my full resume <u><a href={MyResume} download>here</a></u>.
+            If you would like to see more of my credentials and experience, you can download my full resumé <u><a href={MyResume} download>here</a></u>.
       </h3>
       <div id="skills"> 
         <div >

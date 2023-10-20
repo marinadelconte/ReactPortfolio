@@ -4,7 +4,9 @@
     --green: #6b8e23;
 }
 
-
+/* body {
+    background-image: url("./background.jpg");
+} */
 
 html,
 body {
@@ -75,8 +77,21 @@ header {
 .logo {
     height: 170px;
     width: 250px;
-    margin: 0;
-    padding-top: 0;
+    padding-top: 20px;
+}
+
+.home-graphic img{
+    height: 40%;
+    width: 40%;
+}
+
+.home-text {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-right: 25%;
+    margin-top: 10%;
+    text-align: center;
 }
 
 .footer {
@@ -112,20 +127,6 @@ header {
     display: inline block;
     width: 54px;
     height: 50px;
-}
-
-.home-text {
-    align-items: center;
-    left: 30%;
-    top: 25%;
-    position: absolute;
-}
-
-.welcome {
-    display: flex;
-    font-size: 50px;
-    font: malibu;
-    
 }
 
 .links {
@@ -211,15 +212,6 @@ label {
     padding-bottom: 30px;
 }
 
-.headshot img {
-    display: flex;
-    margin-left: 10px;
-    border-radius: 50%;
-    width: 20%;
-    height: 20%;
-   
-}
-
 #facts {
     font-size: 20px;
 }
@@ -275,6 +267,11 @@ label {
     #fs-form {
         width: 100%;
       }
+
+      .home-graphic img{
+        height: 100%;
+        width: 100%;
+    }
    
   }
 }
