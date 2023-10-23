@@ -4,9 +4,9 @@
     --green: #6b8e23;
 }
 
-/* body {
+body {
     background-image: url("./background.jpg");
-} */
+}
 
 html,
 body {
@@ -64,15 +64,6 @@ header {
     font-family: 'Playfair Display', serif;
     height: auto;
 }
-/* 
-.header {
-    font-size: 45px;
-}
-
-.subheader {
-    color: var(--green);
-    font-size: 25px;
-} */
 
 .logo {
     height: 170px;
@@ -81,6 +72,8 @@ header {
 }
 
 .home-graphic img{
+    margin-left: 30px;
+    margin-top: 25px;
     height: 40%;
     width: 40%;
 }
@@ -89,7 +82,7 @@ header {
     display: flex;
     flex-direction: column;
     float: right;
-    margin-right: 25%;
+    margin-right: 20%;
     margin-top: 10%;
     text-align: center;
     color: black;
@@ -114,6 +107,7 @@ footer {
     margin-bottom: 0;
     margin-top: 10%;
     position: bottom sticky;
+    position: absolute bottom;
 }
 
 .attribution {
@@ -212,10 +206,6 @@ label {
 }
 
 @media screen and (max-width: 1300px) {
-    .headshot img {
-      width: 50%;
-    }
-
     .about-text {
         width: 100%;
     }
@@ -224,18 +214,15 @@ label {
         width: 50%;
       }
 
-      .home-graphic img{
+    .home-graphic img{
         height: 75%;
         width: 75%;
     }
     
+
   }
 
   @media screen and (max-width: 992px) {
-    .headshot img {
-      width: 50%;
-    }
-
     .about-text {
         width: 100%;
     }
@@ -248,16 +235,13 @@ label {
         height: 100%;
         width: 100%;
     }
+
+    
     
   }
   
   
   @media screen and (max-width: 768px) {
-    .headshot img {
-      width: 75%;
-      flex-direction: column;
-    }
-
     .about-text {
     width: 100%;
     }
@@ -273,14 +257,17 @@ label {
   .home-graphic img{
     height: 100%;
     width: 100%;
+    margin: auto;
 }
 
-  @media screen and (max-width: 600px) {
-    .headshot img {
-      width: 75%;
-      flex-direction: column;
-    }
+.home-text,
+.home-text img {
+    margin-left: auto;
+    margin-right: auto;
+}
 
+
+  @media screen and (max-width: 600px) {
     .about-text {
     width: 100%;
     }
@@ -294,6 +281,7 @@ label {
       }
 
     .home-graphic img{
+        margin: auto;
         height: 100%;
         width: 100%;
     }

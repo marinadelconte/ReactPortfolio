@@ -11,7 +11,7 @@ export default function Home() {
         
     </aside>
       <div className="home-graphic">
-        <img src="./graphic.jpg"></img>
+        <img src="./graphic2.jpg"></img>
       </div>
     </div>
   );
