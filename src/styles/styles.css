@@ -92,21 +92,32 @@ header {
     margin-right: 25%;
     margin-top: 10%;
     text-align: center;
+    color: black;
 }
 
-.footer {
+.home-text img {
+    height: 50px;
+    width: 100px;
+    padding-bottom: 10px;
+    margin-left: 160px;
+}
+
+footer {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Playfair Display', serif;
     font-weight: 200;
     text-align: center;
     justify-content: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
     height: auto;
     margin-bottom: 0;
     margin-top: 15%;
     position: bottom sticky;
+}
+
+.attribution {
+    margin-top: 0;
+    font-size: 14px;
 }
 
 .contactForm {
@@ -216,7 +227,7 @@ label {
     font-size: 20px;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1300px) {
     .headshot img {
       width: 50%;
     }
@@ -228,6 +239,31 @@ label {
     #fs-form {
         width: 50%;
       }
+
+      .home-graphic img{
+        height: 75%;
+        width: 75%;
+    }
+    
+  }
+
+  @media screen and (max-width: 992px) {
+    .headshot img {
+      width: 50%;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    #fs-form {
+        width: 50%;
+      }
+
+      .home-graphic img{
+        height: 100%;
+        width: 100%;
+    }
     
   }
   
@@ -250,6 +286,11 @@ label {
     width: 75%;
   }
 
+  .home-graphic img{
+    height: 100%;
+    width: 100%;
+}
+
   @media screen and (max-width: 600px) {
     .headshot img {
       width: 75%;
@@ -268,9 +309,15 @@ label {
         width: 100%;
       }
 
-      .home-graphic img{
+    .home-graphic img{
         height: 100%;
         width: 100%;
+    }
+
+    .home-text,
+    .home-text img {
+        margin-left: auto;
+        margin-right: auto;
     }
    
   }

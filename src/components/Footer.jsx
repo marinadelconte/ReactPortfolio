@@ -3,7 +3,10 @@ import '../styles/styles.css';
 
 function Footer() {
     return (
-      <footer className="footer">Made with 💜 By Marina</footer> 
+      <footer>
+      <p className="footer">Made with 💜 By Marina</p> 
+      <p className="attribution"><a href="https://www.vecteezy.com/free-vector/linkedin-logo">Linkedin Logo Vectors by Vecteezy</a></p>
+      </footer>
     );
   }
   
