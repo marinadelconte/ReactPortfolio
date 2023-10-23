@@ -4,9 +4,9 @@
     --green: #6b8e23;
 }
 
-body {
+/* body {
     background-image: url("./background.jpg");
-}
+} */
 
 html,
 body {
@@ -218,7 +218,7 @@ label {
         height: 75%;
         width: 75%;
     }
-    
+
 
   }
 
