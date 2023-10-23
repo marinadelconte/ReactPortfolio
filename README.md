@@ -9,22 +9,14 @@ This application is deployed using Netlify and can be accessed via this link: ht
 To run this in live server, first run "npm i" to start. Next run "npm run dev" to start listening on local host 3001.
 
 ## Technologies Used
-In order to create my digital portfolio, I used the following technologies:
--JavaScript
--CSS
--HTML
--React
--Bootstrap
--Netlify
--Git
+In order to create my digital portfolio, I used the following technologies: JavaScript, CSS, HTML, React, npm, Bootstrap, Netlify and Git.
 
 The graphics used are from https://www.vecteezy.com/ and https://handcrafts.undraw.co/app
 
 The contact form was created using https://formspree.io/. 
 
 ## Usage
-This project will be improved upon and then will be used for my job search following the Bootcamp.
-
+This project will continuously be edited and improved upon and will be used as my professional portfolio.
 
 ## Credits
 While working on this assignment, I used the following sources:
