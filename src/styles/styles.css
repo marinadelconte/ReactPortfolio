@@ -95,6 +95,7 @@ header {
     color: black;
 }
 
+
 .home-text img {
     height: 50px;
     width: 100px;
@@ -111,7 +112,7 @@ footer {
     justify-content: center;
     height: auto;
     margin-bottom: 0;
-    margin-top: 15%;
+    margin-top: 10%;
     position: bottom sticky;
 }
 
@@ -124,25 +125,6 @@ footer {
     display: flex;
     flex-direction: column;
     width: 40%;
-}
-
-.linkedin-logo,
-.wordpress-logo {
-    display: inline-block;
-    width: 70px;
-    height: 70px;
-}
-
-
-.github-logo {
-    display: inline block;
-    width: 54px;
-    height: 50px;
-}
-
-.links {
-    display: flex;
-    font-size: 45px;
 }
 
 .projects {
@@ -199,7 +181,7 @@ label {
     color: black;
 }
 
-.resume  a:hover {
+.resume a:hover {
     text-shadow: 0 0 10px #6b8e23;
     color: var(--green);
 }
@@ -220,11 +202,13 @@ label {
     width: 75%;
     font-size: 22px;
     padding-left: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
-#facts {
-    font-size: 20px;
+.linkedin-logo,
+.github-logo {
+    height: 80px;
+    width: 80px;
 }
 
 @media screen and (max-width: 1300px) {
