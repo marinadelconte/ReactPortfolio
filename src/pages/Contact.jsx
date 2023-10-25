@@ -26,7 +26,7 @@ export default function Contact() {
         errors={state.errors}
       />
       <label htmlFor="message">Message:</label>
-      <textarea rows="7" id="message" name="message" />
+      <textarea rows="8" id="message" name="message" />
       <ValidationError
         prefix="Message"
         field="message"
