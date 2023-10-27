@@ -98,7 +98,7 @@ header {
     min-height: 100px;
     position: relative;
     bottom: 0;
-    padding-top: 50px;
+    padding-top: 50npmpx;
     padding-bottom: 0;
     margin: 0;
 }
@@ -136,6 +136,10 @@ footer P {
 .projects a:hover {
     box-shadow: 0 0 10px #6b8e23;
     color: var(--green);
+}
+
+a {
+    text-decoration: none;
 }
 
 .card-img {
