@@ -15,6 +15,8 @@ The graphics used are from https://www.vecteezy.com/ and https://handcrafts.undr
 
 The contact form was created using https://formspree.io/. 
 
+Fonts are from Google Fonts: https://fonts.google.com/.
+
 ## Usage
 This project will continuously be edited and improved upon and will be used as my professional portfolio.
 
