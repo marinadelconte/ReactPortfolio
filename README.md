@@ -9,7 +9,7 @@ This application is deployed using Netlify and can be accessed via this link: ht
 To run this in live server, first run "npm i" to start. Next run "npm run dev" to start listening on local host 3001.
 
 ## Technologies Used
-In order to create my digital portfolio, I used the following technologies: JavaScript, CSS, HTML, React, npm, Bootstrap, Netlify and Git.
+In order to create my digital portfolio, I used the following technologies: JavaScript, CSS, HTML, React, npm, Bootstrap, Netlify and Git. Additionally, I used Canva to create the favicon.
 
 The graphics used are from https://www.vecteezy.com/ and https://handcrafts.undraw.co/app.
 
