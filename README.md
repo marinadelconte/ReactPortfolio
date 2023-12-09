@@ -11,7 +11,7 @@ To run this in live server, first run "npm i" to start. Next run "npm run dev" t
 ## Technologies Used
 In order to create my digital portfolio, I used the following technologies: JavaScript, CSS, HTML, React, npm, Bootstrap, Netlify and Git.
 
-The graphics used are from https://www.vecteezy.com/ and https://handcrafts.undraw.co/app
+The graphics used are from https://www.vecteezy.com/ and https://handcrafts.undraw.co/app.
 
 The contact form was created using https://formspree.io/. 
 
@@ -23,9 +23,9 @@ This project will continuously be edited and improved upon and will be used as m
 ## Credits
 While working on this assignment, I used the following sources:
 
--https://getbootstrap.com/docs/5.1/getting-started/introduction/
+https://getbootstrap.com/docs/5.1/getting-started/introduction/
 
--https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started
+https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started
 
 
 
