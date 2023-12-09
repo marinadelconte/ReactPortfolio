@@ -21,7 +21,7 @@ Fonts are from Google Fonts: https://fonts.google.com/.
 This project will continuously be edited and improved upon and will be used as my professional portfolio.
 
 ## Credits
-While working on this assignment, I used the following sources:
+While working on my portfolio, I used the following sources:
 
 https://getbootstrap.com/docs/5.1/getting-started/introduction/
 
