@@ -286,7 +286,7 @@ label {
     }
 
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 576px) {
         .about-text {
             width: 100%;
         }
@@ -312,6 +312,7 @@ label {
             margin-right: auto;
             float: none;
         }
+
 
     }
 }

@@ -22,7 +22,7 @@ const projects = [
 },
 {
   projectTitle: "Book Search Engine",
-  projectUrl: "https://limitless-taiga-59709-c8b8e6dbc195.herokuapp.com/",
+  projectUrl: "https://googlebooksearch1-2ee21b2bed39.herokuapp.com/",
   about: "An application created using React, MERN stack, node.js/express.js and graphql.",
   image: "./book-background.PNG"
 },
