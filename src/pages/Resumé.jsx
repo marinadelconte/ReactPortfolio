@@ -12,21 +12,19 @@ export default function Resume() {
           <ul className="skills">
             <h4>Technical Skills:</h4>
             <li>JavaScript ES6+</li>
-            <li>jQuery</li>
-            <li>CSS3</li>
             <li>HTML5</li>
-            <li>SQL</li>
-            <li>NoSQL</li>
-            <li>GitHub</li>
-            <li>MongoDB</li>
-            <li>MySQL</li>
-            <li>Express</li>
-            <li>Insomnia</li>
+            <li>CSS3</li>
             <li>React</li>
-            <li>Node</li>
-            <li>Handlebars</li>
+            <li>Node.js/Express.js</li>
+            <li>MERN Stack</li>
             <li>Bootstrap</li>
-            <li>Bulma</li>
+            <li>jQuery</li>
+            <li>Git/GitHub/Git Version Control</li>
+            <li>MongoDB</li>
+            <li>GraphQL</li>
+            <li>MySQL</li>
+            <li>Sequelize</li>
+            <li>Insomnia</li>
           </ul>
           <ul className="skills-2">
             <h4>Additional Skills:</h4>
