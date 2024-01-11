@@ -1,5 +1,5 @@
 import '../styles/styles.css';
-import MyResume from '/Resume2023.pdf?url'
+import MyResume from '/MarinaDelConte - Resume 2024.pdf'
 
 export default function Resume() {
   return (
