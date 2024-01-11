@@ -42,7 +42,6 @@ export default function Resume() {
             <li>Hootsuite</li>
           </ul>
         </div>
-
       </div>
 
 

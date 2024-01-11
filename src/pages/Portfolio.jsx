@@ -16,8 +16,8 @@ const projects = [
 },
 {
   projectTitle: "Brewery Locator & Random Joke Generator",
-  projectUrl: "https://pb1983.github.io/Project1/",
-  about: "Utilizes two API's, JavaScript, CSS, HTML, and Local Storage to provide users with a list of breweries in their area and a random joke that they can use once they get there.",
+  projectUrl: "https://marinadelconte.github.io/BreweryLocator/",
+  about: "Utilizes two API's, JavaScript, CSS, HTML, and Local Storage to provide users with a list of breweries for a U.S. city that they search and a random joke that they can use once they get there.",
   image: "./brewery-background.PNG"
 },
 {
