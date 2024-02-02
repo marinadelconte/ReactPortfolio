@@ -10,7 +10,7 @@ const projects = [
 },
 {
   projectTitle: "Travel Tracker",
-  projectUrl: "https://travel-tracker-msc-0fe902780013.herokuapp.com/",
+  projectUrl: "https://travel-tracker-d9d6fbb7ca8f.herokuapp.com//",
   about: "Uses a map API, node.js, express.js, Handlebars, bcrypt, Bulma, MySQL, and the Sequelize ORM to allow users to track places that they have visited on an interactive map.",
   image: "./map-background.PNG"
 },
