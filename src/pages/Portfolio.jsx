@@ -4,7 +4,7 @@ import '../styles/styles.css';
 const projects = [
 {
   projectTitle: "My Recipe Book",
-  projectUrl: "https://project-3-app-mck-b96b86dfcabe.herokuapp.com/",
+  projectUrl: "https://recipe-book-mld-ecaf15021f7b.herokuapp.com//",
   about: "An interactive MERN application that allows users to search for recipes and save them to their personal recipe book.",
   image: "./recipe-background.PNG"
 },
