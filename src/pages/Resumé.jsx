@@ -25,21 +25,29 @@ export default function Resume() {
             <li>MySQL</li>
             <li>Sequelize</li>
             <li>Insomnia</li>
+            <li>Visual Studio Code</li>
           </ul>
           <ul className="skills-2">
             <h4>Additional Skills:</h4>
-            <li>Microsoft Office Systems</li>
-            <li>Windows & Mac Operating Systems</li>
-            <li>Outlook</li>
+            <li>WordPress & WP Plugins</li>
+            <li>Salesfusion</li>
+            <li>Salesforce</li>
+            <li>Microsoft Office</li>
+            <li>Microsoft Outlook</li>
+            <li>Social Media</li>
             <li>HubSpot</li>
+            <li>Hootsuite</li>
             <li>Canva</li>
-            <li>WordPress</li>
+            <li>Camtasia</li>
             <li>Vimeo</li>
             <li>Salesfusion</li>
             <li>Adobe InDesign</li>
             <li>Adobe Illustrator</li>
-            <li>Camtasia</li>
-            <li>Hootsuite</li>
+            <li>Writing/Editing</li>
+            <li>GoDaddy</li>
+            <li>SEO</li>
+            
+            
           </ul>
         </div>
       </div>
