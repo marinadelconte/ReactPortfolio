@@ -1,5 +1,5 @@
 import '../styles/styles.css';
-import React from 'react';
+import React, { Component } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
 
@@ -35,4 +35,7 @@ export default function Contact() {
       <button id="submit" type="submit" disabled={state.submitting}>Submit</button>
     </form>
   );
+ 
 }
+
+
