@@ -46,8 +46,7 @@ export default function Resume() {
             <li>Writing/Editing</li>
             <li>GoDaddy</li>
             <li>SEO</li>
-            
-            
+                       
           </ul>
         </div>
       </div>
